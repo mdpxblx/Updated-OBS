@@ -1,0 +1,36 @@
+fieldset {
+    background-color: #eeeeee;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-TOP: 100px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+}
+
+input {
+    margin: 10px;
+}
+
+.button1 {
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 185px;
+    margin-top: 2%;
+}
+.form-group{
+    margin-top: 2%;	
+}

@@ -1,0 +1,166 @@
+/*index style*/
+body{
+ background-image:url('1st.jpg');
+ background-repeat:no-repeat;
+ background-size:cover;
+ height:100%;
+  margin:auto;
+  padding:0;
+  font-family:arial;
+}
+nav{
+  position:;
+  top:0;
+  left:0;
+  width:100%;
+  height:150px;
+  padding:10px;
+  box-sizing:border-box;
+  background-color:#FF0000;
+  }
+ nav .logo{
+
+  padding:7px 20px;
+  height:80px;
+  float:left;
+  font-size:24px;
+  font-weight:bold;
+  text-transform:uppercase;
+  color:#fff;
+  }
+  nav ul{
+  list-style:none;
+  list-style:none;
+  float:right;
+  margin:0;
+  padding:0;
+  display:flex;
+  }
+  nav ul li a{
+  line-height:120px;
+  color:#fff;
+  padding:30px 30px;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:15px;
+  font-weight:bold;
+  }
+  nav ul li :hover{
+  background:rgba(0,0,0,0.5);
+  border-radius:100px;
+  }
+  nav ul li a.active{
+  color:#fff;
+  border-radius:100px;
+  }
+  
+ .About {
+  background-color:white;
+  color: white;
+  background-attachment: fixed;
+  height: 25%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+  box-sizing:border-box;
+  background-color:#FF0000;
+}
+ 
+.Slideshow{
+	height:100%;
+	padding:65px;
+	
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+   
+	margin-left: 170px;
+	z-index: 0;
+
+  }
+  
+.footer{
+	background-color: #ff0000;
+	color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  
+
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.columnf {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+
+
+}
+
+.rowf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnf a {
+  color:  white;
+}
+
+.columnf a:hover {
+  color: white;
+  
+}
+p.copyright {
+    color: white;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0em;
+    background: #0e0e13;
+    padding: 10px 0;
+}
+
+.Offers{
+	background-color:white;
+  background-attachment: fixed;
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+
+}
+
+
+
+
